@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: antiquewhite;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    max-width: 1000px;
+    background-color: beige;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+.profile-img{
+    width: 100px;
+    height: 120px;
+    border: 3px white solid;
+    border-radius: 50%;
+    float: left;
+}
+.profile-bio{
+    float: left;
+    padding: 30px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: brown;
+}
+
+.contract{
+    float: right;
+    padding: 30px;
+}
+.contract a{
+    text-decoration: none;
+    color: blueviolet;
+    font-weight: bold;
+
+
+}
+
+.contract a:hover{
+    text-decoration: underline;
+    color: tomato;
+
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border: 3px black solid;
+    width: 100%;
+    border-bottom: none;
+    margin: 10px;
+}
+
+/*----------------main start-------------*/
+.left-div{
+    
+    float: left;
+
+}
+
+.right-div{
+   color: blue;
+    float: right;
+
+
+}
+.common-hr{
+    border: 1px black solid;
+    border-bottom: none;
+    margin: 20px auto;
+}
+
+.other{
+    color: blue;
+}
+
+.footer{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer a{
+    color: white;
+    margin: 20px;
+   text-decoration: none;
+}
+
+.footer p{
+    color: white;
+    margin-top: 20px;
+
+}

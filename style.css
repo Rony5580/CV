@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: #f3f8f7;
+}
+.container{
+    max-width: 1200px;
+    background-color: #A9DFBF;
+    margin: 0 auto;
+}
+h1, h2 , h3, h4{
+    color: #f39976;
+}
+/* header stats */
+.img{
+   
+    border: 1px solid white;
+    border-radius: 50%;
+    float: left;
+}
+.header-content{
+    font-size: 20Px;
+    float: left;
+    padding: 30px;
+    
+}
+
+.header-contract{
+    float: right;
+    padding: 30px;
+   
+}
+
+.header-contract a {
+    text-decoration: none;
+   font-weight: bold;
+   color: black;
+
+}
+.header-contract a:hover {
+    text-decoration: underline;
+    color: aquamarine;
+}
+.clear-div{
+    clear: both;
+}
+hr{
+    border: 3px black solid;
+    margin: 20px auto;
+    width: 100%;
+    border-bottom: none;
+}
+/* header Ends  */
+
+/* personal information starts here */
+.personal-inf{
+
+}
+.content{
+
+}
+.left-div{
+    width: 30%;
+    float: left;
+   
+
+}
+.right-div{
+    width: 70%;
+ float: left;
+}
+
+.common hr{
+    border: solid black 1px;
+    border-bottom: none;
+    margin: auto;
+}
+
+/* personal information Ends here */
+
+.footer{
+    background-color: black;
+    text-align: center;
+
+}
+.footer p{
+    color: white;
+}
+
+
